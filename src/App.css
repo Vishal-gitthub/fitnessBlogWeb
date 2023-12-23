@@ -1,0 +1,101 @@
+.contactContainer {
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  width: 100vw;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("component/wepik-export-20231118112153BURU.png");
+}
+
+.addressDetails {
+  margin-left: 50px;
+}
+.ph-No {
+  margin-left: 100px;
+}
+.contactPcontent {
+  color: rgb(0, 0, 0);
+  font-size: clamp(1rem, 5vw, 2rem);
+  padding: 50px;
+  /* position: fixed; */
+}
+.contactBtn button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(72, 255, 0, 0.764);
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.829);
+  border: none;
+}
+.contactBtn button:is(:hover) {
+  background: rgb(0, 5, 10);
+  color: wheat;
+}
+.contactBtn button:is(:active) {
+  background: rgba(25, 25, 26, 0.92);
+  color: whitesmoke;
+}
+.contactBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.inputPadding {
+  padding: 10px 5px;
+  background: transparent;
+  border-width: 0;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+/* about page css starts from here  */
+.w-100vw {
+  width: 100vw;
+}
+.about-headerImg {
+  width: 100%;
+}
+
+.linkColor {
+  color: black;
+  text-decoration: none;
+}
+.linkColor:active {
+color:orange;
+}
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutSplitter {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+  padding: 30px 70px;
+  margin-bottom: 24px;
+}
+.br8px {
+  border-radius: 8px;
+}
+.aboutHeading {
+  width: 786px;
+  text-align: center;
+}
+.splitterContainer {
+  margin-top: 80px;
+  background: rgba(141, 141, 141, 0.077);
+}
+.aboutDetails {
+  text-align: center;
+  max-width: 650px;
+}
